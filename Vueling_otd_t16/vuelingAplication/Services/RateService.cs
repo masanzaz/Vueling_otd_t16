@@ -15,9 +15,9 @@ namespace vuelingAplication.Services
         {
             _rateRepository = new RateRepository();
         }
-        public IEnumerable<Rate> GetRates()
+        public IEnumerable<Rate> GetAllRates()
         {
-            return _rateRepository.GetRates();
+            return _rateRepository.GetAllRates();
         }
 
 

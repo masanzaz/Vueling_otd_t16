@@ -9,10 +9,10 @@ using Xunit;
 
 namespace vuelingTest
 {
-    public class RatesControllerTest
+    public class RateControllerTest
     {
-        RatesController _controller;
-        public RatesControllerTest()
+        RateController _controller;
+        public RateControllerTest()
         {
             var autoMapping = new AutoMapping();
 
@@ -22,7 +22,7 @@ namespace vuelingTest
             });
             var mapper = new Mapper(config);
             (mapper as IMapper).ConfigurationProvider.AssertConfigurationIsValid();
-            _controller = new RatesController(mapper);
+            _controller = new RateController(mapper);
         }
         [Fact]
         public void Get_WhenCalled_ReturnsOkResult()

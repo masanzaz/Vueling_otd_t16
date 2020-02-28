@@ -7,27 +7,26 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using vuelingApi.Models;
 using vuelingAplication.Services;
-using vuelingDomain.Repository;
 
 namespace vuelingApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RatesController : ControllerBase
+    public class TransactionController : ControllerBase
     {
         private readonly IMapper _mapper;
-        public RatesController(IMapper mapper)
+        public TransactionController(IMapper mapper)
         {
             _mapper = mapper;
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<DtoRate>> GetAllRates()
+        public ActionResult<IEnumerable<DtoTransaction>> GetAllTransactions()
         {
             try
             {
-                var ratesList = new RateService().GetRates();
-                var result = _mapper.Map<IEnumerable<DtoRate>>(ratesList);
+                var transactionsList = new TransactionService().GetAllTransactions();
+                var result = _mapper.Map<IEnumerable<DtoTransaction>>(transactionsList);
                 return Ok(result);
             }
             catch (Exception ex)
@@ -36,5 +35,6 @@ namespace vuelingApi.Controllers
             }
 
         }
+
     }
 }

@@ -5,8 +5,8 @@ using vuelingDomain.Entities;
 
 namespace vuelingDomain.Repository
 {
-    public interface IRateRepository
+    public interface ITransactionRepository
     {
-        IEnumerable<Rate> GetAllRates();
+        IEnumerable<Transaction> GetAllTransactions();
     }
 }

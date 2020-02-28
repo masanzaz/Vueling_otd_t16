@@ -12,7 +12,7 @@ namespace vuelingDataAccess.Repository
 {
     public class RateRepository : ConnectionService, IRateRepository
     {
-        public IEnumerable<Rate> GetRates()
+        public IEnumerable<Rate> GetAllRates()
         {
             List<Rate> rates = new List<Rate>();
             string path = $"{URL}rates";

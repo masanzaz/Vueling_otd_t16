@@ -13,6 +13,7 @@ namespace vuelingApi.Infraestructure
         public AutoMapping()
         {
             CreateMap<Rate, DtoRate>();
+            CreateMap<Transaction, DtoTransaction>();
         }
     }
 }
