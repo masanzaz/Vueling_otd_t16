@@ -37,7 +37,7 @@ namespace vuelingApi.Controllers
         }
 
         [HttpGet("{sku}")]
-        public ActionResult<IEnumerable<DtoTransaction>> GetTransactionsBySKU(string sku)
+        public ActionResult<DtoTransactionTotal> GetTransactionsBySKU(string sku)
         {
             try
             {

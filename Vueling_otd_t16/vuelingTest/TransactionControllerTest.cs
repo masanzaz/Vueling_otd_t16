@@ -35,13 +35,53 @@ namespace vuelingTest
         }
 
         [Fact]
-        public void Get_WhenCalled_ReturnsAllRates()
+        public void Get_WhenCalled_ReturnsAllTransactions()
         {
             // Act
             var okResult = _controller.GetAllTransactions().Result as OkObjectResult;
             // Assert
             Assert.IsType<List<DtoTransaction>>(okResult.Value);
         }
+
+        [Fact]
+        public void GetBySKU_UnknownSKUPassed_ReturnsNotFoundResult()
+        {
+            // Act            
+            var notFoundResult = _controller.GetTransactionsBySKU("UnknownSKU");
+
+            // Assert
+            Assert.IsType<NotFoundResult>(notFoundResult.Result);
+        }
+
+        [Fact]
+        public void GetBySKU_ExistingSKUPassed_ReturnsOkResult()
+        {
+            // Arrange
+            string sku = "N2486";
+            // Act            
+            var okResult = _controller.GetTransactionsBySKU(sku);
+
+            // Assert
+            Assert.IsType<OkObjectResult>(okResult.Result);
+        }
+
+        [Fact]
+        public void GetBySKU_ExistingSKUPassed_ReturnsRightItem()
+        {
+            // Arrange
+            string sku = "N2486";
+
+            // Act
+            var okResult = _controller.GetTransactionsBySKU(sku).Result as OkObjectResult;
+
+            // Assert
+            Assert.IsType<DtoTransactionTotal>(okResult.Value);
+            Assert.Equal(sku, (okResult.Value as DtoTransactionTotal).transactionList[0].sku);
+        }
+
+
+
+
     }
 }
 
