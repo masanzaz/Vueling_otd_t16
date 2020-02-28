@@ -13,7 +13,7 @@ namespace vuelingDataAccess
     {
         protected DataTable GetData(string url, string name)
         {
-            string path = $"{url}{name}.json";
+            string path = $"{url}{name}";
             var client = new RestClient(path);
             var request = new RestRequest(Method.GET);
             request.AddHeader("cache-control", "no-cache");
@@ -23,7 +23,7 @@ namespace vuelingDataAccess
             string stringResult;
             if (response.StatusCode == HttpStatusCode.NotFound || response.StatusCode == 0)
             {
-                path = @$"Data\{name}.txt";
+                path = @$"Data\{name}";
                 stringResult = File.ReadAllText(path);
             }
             else

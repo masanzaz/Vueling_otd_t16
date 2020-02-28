@@ -14,8 +14,8 @@ namespace vuelingDataAccess.Repository
         public IEnumerable<Rate> GetAllRates()
         {
             List<Rate> rates = new List<Rate>();
-            var dataSet = GetData(URL, "rates");
-            PersistData.Save(dataSet, "rates");
+            var dataSet = GetData(URL, "rates.json");
+            PersistData.Save(dataSet, "rates.json");
             foreach (DataRow row in dataSet.Rows)
             {
                 rates.Add(new Rate(EnumHelpers.ParseEnum<Divisa>(Convert.ToString(row["from"])),

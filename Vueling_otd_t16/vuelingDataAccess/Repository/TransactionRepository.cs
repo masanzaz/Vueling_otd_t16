@@ -26,8 +26,8 @@ namespace vuelingDataAccess.Repository
         private IEnumerable<Transaction> GetTransactions(string sku = null)
         {
             List<Transaction> transactions = new List<Transaction>();
-            var dataSet = GetData(URL, "transactions");
-            PersistData.Save(dataSet, "transactions");
+            var dataSet = GetData(URL, "transactions.json");
+            PersistData.Save(dataSet, "transactions.json");
             foreach (DataRow row in dataSet.Rows)
             {
                if(string.IsNullOrEmpty(sku) || string.Equals(sku, Convert.ToString(row["sku"])))

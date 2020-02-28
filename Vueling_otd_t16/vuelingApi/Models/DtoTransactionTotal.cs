@@ -9,10 +9,10 @@ namespace vuelingApi.Models
     public class DtoTransactionTotal
     {
         private decimal _total;
-        private List<Transaction> _transactionList;
+        private List<DtoTransaction> _transactionList;
 
         public decimal total { set => _total = value; get => _total; }
-        public List<Transaction> transactionList
+        public List<DtoTransaction> transactionList
         {
             get
             {
@@ -22,7 +22,7 @@ namespace vuelingApi.Models
             {
                 if (value == null)
                 {
-                    _transactionList = new List<Transaction>();
+                    _transactionList = new List<DtoTransaction>();
                 }
                 this._transactionList = value;
             }

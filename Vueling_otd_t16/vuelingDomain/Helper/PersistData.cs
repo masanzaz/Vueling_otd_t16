@@ -13,7 +13,7 @@ namespace vuelingDomain.Helper
         public static void Save(DataTable datatable, string name)
         {
             
-            string path = $"{_filePath}{name}.txt";
+            string path = $"{_filePath}{name}";
             if (File.Exists(path)) File.Delete(path);
             Directory.CreateDirectory(_filePath);
             File.WriteAllText(path, JsonConvert.SerializeObject(datatable));
