@@ -6,6 +6,7 @@ using System.Data;
 using System.IO;
 using System.Net;
 using System.Text;
+using vuelingDomain.Helper;
 
 namespace vuelingDataAccess
 {
@@ -20,16 +21,8 @@ namespace vuelingDataAccess
             request.AddHeader("Accept", "application/json");
             request.AddHeader("Connection", "keep-alive");
             var response = client.Execute(request);
-            string stringResult;
-            if (response.StatusCode == HttpStatusCode.NotFound || response.StatusCode == 0)
-            {
-                path = @$"Data\{name}";
-                stringResult = File.ReadAllText(path);
-            }
-            else
-                stringResult = response.Content;
 
-
+            string stringResult = (response.StatusCode == HttpStatusCode.NotFound || response.StatusCode == 0) ? PersistData.ReadFile(name) : response.Content;
 
             DataTable dataSet = JsonConvert.DeserializeObject<DataTable>(stringResult);
             return dataSet;

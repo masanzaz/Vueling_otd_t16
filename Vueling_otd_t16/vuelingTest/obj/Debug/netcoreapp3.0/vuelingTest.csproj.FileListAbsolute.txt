@@ -1,5 +1,8 @@
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\nlog.config
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\appsettings.json
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Data\rates.json
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Data\transactions.json
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\vuelingApi.exe
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -42,6 +45,8 @@ C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Mi
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\NLog.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\NLog.Extensions.Logging.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\RestSharp.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
@@ -182,10 +187,12 @@ C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\ru
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\LoggerService.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\vuelingApi.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\vuelingAplication.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\vuelingDataAccess.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\vuelingDomain.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\LoggerService.pdb
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\vuelingApi.pdb
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\vuelingAplication.pdb
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\vuelingDataAccess.pdb
@@ -196,10 +203,3 @@ C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\obj\Debug\netcoreapp3.0\vu
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\obj\Debug\netcoreapp3.0\vuelingTest.csproj.CopyComplete
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\obj\Debug\netcoreapp3.0\vuelingTest.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\obj\Debug\netcoreapp3.0\vuelingTest.pdb
-C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Data\rates.json
-C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Data\transactions.json
-C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\nlog.config
-C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\NLog.dll
-C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\NLog.Extensions.Logging.dll
-C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\LoggerService.dll
-C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\LoggerService.pdb

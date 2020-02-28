@@ -29,15 +29,14 @@ namespace vuelingApi.Controllers
         {
             try
             {
-
                 var ratesList = new RateService().GetAllRates();
                 var result = _mapper.Map<IEnumerable<DtoRate>>(ratesList);
                 return Ok(result);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
-                return BadRequest(ex.Message);
+                _logger.LogError($"Error getting all rates: {ex.Message}");
+                return BadRequest("Error getting all rates");
             }
 
         }

@@ -34,10 +34,9 @@ namespace vuelingApi.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
-                return BadRequest(ex.Message);
+                _logger.LogError($"Error getting all transactions: {ex.Message}");
+                return BadRequest("Error getting all transactions");
             }
-
         }
 
         [HttpGet("{sku}")]
@@ -56,8 +55,8 @@ namespace vuelingApi.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message);
-                return BadRequest(ex.Message);
+                _logger.LogError($"Error getting transactions by SKU {sku}: {ex.Message}");
+                return BadRequest($"Error getting transactions by SKU {sku}");
             }
 
         }

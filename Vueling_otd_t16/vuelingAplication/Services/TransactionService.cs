@@ -30,19 +30,27 @@ namespace vuelingAplication.Services
             TransactionTotal transactionTotal = new TransactionTotal();
             var transactionList = _transactionRepository.GetTransactionsBySKU(sku);
             var rateList = _rateRepository.GetAllRates();
-
-            foreach (var transaction in transactionList)
+            try
             {
-                while (transaction.currency != Divisa.EUR)
+                foreach (var transaction in transactionList)
                 {
-                    var rate = rateList.Any(x => x.from == transaction.currency && x.to == Divisa.EUR) ? rateList.FirstOrDefault(x => x.from == transaction.currency && x.to == Divisa.EUR) : rateList.FirstOrDefault(x => x.from == transaction.currency);
+                    while (transaction.currency != Divisa.EUR)
+                    {
+                        var rate = rateList.Any(x => x.from == transaction.currency && x.to == Divisa.EUR) ? rateList.FirstOrDefault(x => x.from == transaction.currency && x.to == Divisa.EUR) : rateList.FirstOrDefault(x => x.from == transaction.currency);
 
-                    transaction.currency = rate.to;
-                    transaction.amount = RoundNumber.RoundHalfToEven(transaction.amount * rate.rate);
+                        transaction.currency = rate.to;
+                        transaction.amount = RoundNumber.RoundHalfToEven(transaction.amount * rate.rate);
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
             transactionTotal.transactionList = transactionList.ToList();
-            transactionTotal.total = transactionList.Sum(x => x.amount);
+            transactionTotal.total = transactionList.Select(x => x.amount)
+                                                     .DefaultIfEmpty(0)
+                                                     .Sum();
             return transactionTotal;
         }
 

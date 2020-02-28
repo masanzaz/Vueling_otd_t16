@@ -1,7 +1,9 @@
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDataAccess\bin\Debug\netcoreapp3.0\vuelingDataAccess.deps.json
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDataAccess\bin\Debug\netcoreapp3.0\vuelingDataAccess.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDataAccess\bin\Debug\netcoreapp3.0\vuelingDataAccess.pdb
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDataAccess\bin\Debug\netcoreapp3.0\LoggerService.dll
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDataAccess\bin\Debug\netcoreapp3.0\vuelingDomain.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDataAccess\bin\Debug\netcoreapp3.0\LoggerService.pdb
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDataAccess\bin\Debug\netcoreapp3.0\vuelingDomain.pdb
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDataAccess\obj\Debug\netcoreapp3.0\vuelingDataAccess.csprojAssemblyReference.cache
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDataAccess\obj\Debug\netcoreapp3.0\vuelingDataAccess.AssemblyInfoInputs.cache

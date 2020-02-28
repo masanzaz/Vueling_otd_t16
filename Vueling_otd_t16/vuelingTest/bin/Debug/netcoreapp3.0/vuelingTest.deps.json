@@ -2121,6 +2121,7 @@
       },
       "vuelingDataAccess/1.0.0": {
         "dependencies": {
+          "LoggerService": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
           "RestSharp": "106.10.1",
           "vuelingDomain": "1.0.0"
@@ -2131,6 +2132,7 @@
       },
       "vuelingDomain/1.0.0": {
         "dependencies": {
+          "LoggerService": "1.0.0",
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
