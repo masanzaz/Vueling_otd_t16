@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Globalization;
 using System.Text;
-using vuelingDataAccess.Services;
 using vuelingDomain.Entities;
 using vuelingDomain.Helper;
 using vuelingDomain.Repository;
@@ -15,8 +14,8 @@ namespace vuelingDataAccess.Repository
         public IEnumerable<Rate> GetAllRates()
         {
             List<Rate> rates = new List<Rate>();
-            string path = $"{URL}rates";
-            var dataSet = GetData(path);
+            var dataSet = GetData(URL, "rates");
+            PersistData.Save(dataSet, "rates");
             foreach (DataRow row in dataSet.Rows)
             {
                 rates.Add(new Rate(EnumHelpers.ParseEnum<Divisa>(Convert.ToString(row["from"])),

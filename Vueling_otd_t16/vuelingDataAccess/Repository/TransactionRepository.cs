@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Globalization;
 using System.Text;
-using vuelingDataAccess.Services;
 using vuelingDomain.Entities;
 using vuelingDomain.Helper;
 using vuelingDomain.Repository;
@@ -15,9 +14,9 @@ namespace vuelingDataAccess.Repository
         public IEnumerable<Transaction> GetAllTransactions()
         {
             List<Transaction> transactions = new List<Transaction>();
-            string path = $"{URL}transactions.json";
 
-            var dataSet = GetData(path);
+            var dataSet = GetData(URL, "transactions");
+            PersistData.Save(dataSet, "transactions");
 
             foreach (DataRow row in dataSet.Rows)
             {

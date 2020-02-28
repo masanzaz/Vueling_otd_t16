@@ -33,6 +33,9 @@
         }
       },
       "vuelingDomain/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
         "runtime": {
           "vuelingDomain.dll": {}
         }

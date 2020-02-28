@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace vuelingDataAccess.Services
+namespace vuelingDataAccess.Repository
 {
     public class ConnectionService : RequestService
     {
