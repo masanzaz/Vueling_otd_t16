@@ -12,6 +12,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using AutoMapper;
 using vuelingApi.Infraestructure;
+using NLog;
+using System.IO;
+using LoggerService.Interfaces;
+using LoggerService;
 
 namespace vuelingApi
 {
@@ -19,6 +23,7 @@ namespace vuelingApi
     {
         public Startup(IConfiguration configuration)
         {
+            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             Configuration = configuration;
         }
 
@@ -28,7 +33,7 @@ namespace vuelingApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
+            services.AddSingleton<ILoggerManager, LoggerManager>();
             services.AddAutoMapper(c => c.AddProfile<AutoMapping>(), typeof(Startup));
         }
 

@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
     <ProjectReference Include="..\vuelingAplication\vuelingAplication.csproj" />
     <ProjectReference Include="..\vuelingDomain\vuelingDomain.csproj" />
   </ItemGroup>

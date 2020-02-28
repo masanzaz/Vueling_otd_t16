@@ -1,0 +1,8 @@
+C:\proyectos\mario_asanza\Vueling_otd_t16\LoggerService\bin\Debug\netcoreapp3.0\LoggerService.deps.json
+C:\proyectos\mario_asanza\Vueling_otd_t16\LoggerService\bin\Debug\netcoreapp3.0\LoggerService.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\LoggerService\obj\Debug\netcoreapp3.0\LoggerService.csprojAssemblyReference.cache
+C:\proyectos\mario_asanza\Vueling_otd_t16\LoggerService\obj\Debug\netcoreapp3.0\LoggerService.AssemblyInfoInputs.cache
+C:\proyectos\mario_asanza\Vueling_otd_t16\LoggerService\obj\Debug\netcoreapp3.0\LoggerService.AssemblyInfo.cs
+C:\proyectos\mario_asanza\Vueling_otd_t16\LoggerService\bin\Debug\netcoreapp3.0\LoggerService.pdb
+C:\proyectos\mario_asanza\Vueling_otd_t16\LoggerService\obj\Debug\netcoreapp3.0\LoggerService.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\LoggerService\obj\Debug\netcoreapp3.0\LoggerService.pdb

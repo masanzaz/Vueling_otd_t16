@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuelingDomain", "vuelingDom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuelingAplication", "vuelingAplication\vuelingAplication.csproj", "{345BF8A7-8091-4415-947F-46B0D2962AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vuelingTest", "vuelingTest\vuelingTest.csproj", "{C6A2E823-9B84-4B30-B060-447CD5ABF84C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuelingTest", "vuelingTest\vuelingTest.csproj", "{C6A2E823-9B84-4B30-B060-447CD5ABF84C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{F6DF6932-E62D-46D5-BEBB-9B9C6FF40C9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C6A2E823-9B84-4B30-B060-447CD5ABF84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6A2E823-9B84-4B30-B060-447CD5ABF84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6A2E823-9B84-4B30-B060-447CD5ABF84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6DF6932-E62D-46D5-BEBB-9B9C6FF40C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DF6932-E62D-46D5-BEBB-9B9C6FF40C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DF6932-E62D-46D5-BEBB-9B9C6FF40C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DF6932-E62D-46D5-BEBB-9B9C6FF40C9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

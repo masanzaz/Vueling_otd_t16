@@ -119,3 +119,8 @@ C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingApi\obj\Debug\netcoreapp3.0\vue
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingApi\obj\Debug\netcoreapp3.0\vuelingApi.pdb
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingApi\bin\Debug\netcoreapp3.0\Data\rates.json
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingApi\bin\Debug\netcoreapp3.0\Data\transactions.json
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingApi\bin\Debug\netcoreapp3.0\nlog.config
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingApi\bin\Debug\netcoreapp3.0\NLog.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingApi\bin\Debug\netcoreapp3.0\NLog.Extensions.Logging.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingApi\bin\Debug\netcoreapp3.0\LoggerService.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingApi\bin\Debug\netcoreapp3.0\LoggerService.pdb
