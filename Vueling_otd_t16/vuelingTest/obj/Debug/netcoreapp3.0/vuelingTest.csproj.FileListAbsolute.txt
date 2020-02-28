@@ -198,3 +198,8 @@ C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\obj\Debug\netcoreapp3.0\vu
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\obj\Debug\netcoreapp3.0\vuelingTest.pdb
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Data\rates.json
 C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\Data\transactions.json
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\nlog.config
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\NLog.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\NLog.Extensions.Logging.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\LoggerService.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingTest\bin\Debug\netcoreapp3.0\LoggerService.pdb

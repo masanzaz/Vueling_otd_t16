@@ -375,6 +375,9 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
+              "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\LoggerService\\LoggerService.csproj"
+              },
               "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\vuelingApi.csproj": {
                 "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\vuelingApi.csproj"
               }

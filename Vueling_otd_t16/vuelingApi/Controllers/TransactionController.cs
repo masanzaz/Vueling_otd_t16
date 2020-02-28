@@ -17,7 +17,7 @@ namespace vuelingApi.Controllers
     {
         private readonly IMapper _mapper;
         private readonly ILoggerManager _logger;
-        public TransactionController(IMapper mapper, , ILoggerManager logger)
+        public TransactionController(IMapper mapper, ILoggerManager logger)
         {
             _logger = logger;
             _mapper = mapper;

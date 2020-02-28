@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using LoggerService;
+using LoggerService.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,7 +13,7 @@ namespace vuelingTest
 {
     public class TransactionControllerTest
     {
-
+        private ILoggerManager _logger;
         TransactionController _controller;
         public TransactionControllerTest()
         {
@@ -23,7 +25,8 @@ namespace vuelingTest
             });
             var mapper = new Mapper(config);
             (mapper as IMapper).ConfigurationProvider.AssertConfigurationIsValid();
-            _controller = new TransactionController(mapper);
+            _logger = new LoggerManager();
+            _controller = new TransactionController(mapper, _logger);
         }
         [Fact]
         public void Get_WhenCalled_ReturnsOkResult()

@@ -1,4 +1,6 @@
 using AutoMapper;
+using LoggerService;
+using LoggerService.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,6 +14,7 @@ namespace vuelingTest
     public class RateControllerTest
     {
         RateController _controller;
+        private ILoggerManager _logger;
         public RateControllerTest()
         {
             var autoMapping = new AutoMapping();
@@ -22,7 +25,9 @@ namespace vuelingTest
             });
             var mapper = new Mapper(config);
             (mapper as IMapper).ConfigurationProvider.AssertConfigurationIsValid();
-            _controller = new RateController(mapper);
+
+            _logger = new LoggerManager();
+            _controller = new RateController(mapper, _logger);
         }
         [Fact]
         public void Get_WhenCalled_ReturnsOkResult()

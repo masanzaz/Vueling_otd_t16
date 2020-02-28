@@ -9684,6 +9684,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "LoggerService >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "coverlet.collector >= 1.0.1",
       "vuelingApi >= 1.0.0",
@@ -9719,6 +9720,9 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+            "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\LoggerService\\LoggerService.csproj": {
+              "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\LoggerService\\LoggerService.csproj"
+            },
             "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\vuelingApi.csproj": {
               "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\vuelingApi.csproj"
             }
