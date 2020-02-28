@@ -14,6 +14,10 @@ namespace vuelingApi.Infraestructure
         {
             CreateMap<Rate, DtoRate>();
             CreateMap<Transaction, DtoTransaction>();
+            CreateMap<TransactionTotal, DtoTransactionTotal>()
+             .ForMember(
+                dest => dest.transactionList,
+                opt => opt.MapFrom(src => src.transactionList));
         }
     }
 }

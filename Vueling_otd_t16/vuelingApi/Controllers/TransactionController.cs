@@ -36,5 +36,24 @@ namespace vuelingApi.Controllers
 
         }
 
+        [HttpGet("{sku}")]
+        public ActionResult<IEnumerable<DtoTransaction>> GetTransactionsBySKU(string sku)
+        {
+            try
+            {
+                var transactionsList = new TransactionService().GetTransactionsBySKU(sku);
+                var result = _mapper.Map<DtoTransactionTotal>(transactionsList);
+                if (!result.transactionList.Any())
+                {
+                    return NotFound();
+                }
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
     }
 }

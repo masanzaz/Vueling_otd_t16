@@ -21,7 +21,7 @@ namespace vuelingDataAccess
             request.AddHeader("Connection", "keep-alive");
             var response = client.Execute(request);
             string stringResult;
-            if (response.StatusCode == HttpStatusCode.NotFound)
+            if (response.StatusCode == HttpStatusCode.NotFound || response.StatusCode == 0)
             {
                 path = @$"Data\{name}.txt";
                 stringResult = File.ReadAllText(path);

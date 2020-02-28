@@ -8,5 +8,6 @@ namespace vuelingDomain.Repository
     public interface ITransactionRepository
     {
         IEnumerable<Transaction> GetAllTransactions();
+        IEnumerable<Transaction> GetTransactionsBySKU(string sku);
     }
 }

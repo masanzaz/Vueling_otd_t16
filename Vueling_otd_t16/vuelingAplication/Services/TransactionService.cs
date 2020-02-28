@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using vuelingDataAccess.Repository;
 using vuelingDomain.Entities;
+using vuelingDomain.Helper;
 using vuelingDomain.Repository;
 
 namespace vuelingAplication.Services
@@ -10,9 +12,12 @@ namespace vuelingAplication.Services
     public class TransactionService
     {
         readonly ITransactionRepository _transactionRepository;
+        readonly IRateRepository _rateRepository;
+
         public TransactionService()
         {
             _transactionRepository = new TransactionRepository();
+            _rateRepository = new RateRepository();
         }
 
         public IEnumerable<Transaction> GetAllTransactions()
@@ -20,6 +25,26 @@ namespace vuelingAplication.Services
             var transactionList = _transactionRepository.GetAllTransactions();
             return transactionList;
         }
-       
+        public TransactionTotal GetTransactionsBySKU(string sku)
+        {
+            TransactionTotal transactionTotal = new TransactionTotal();
+            var transactionList = _transactionRepository.GetTransactionsBySKU(sku);
+            var rateList = _rateRepository.GetAllRates();
+
+            foreach (var transaction in transactionList)
+            {
+                while (transaction.currency != Divisa.EUR)
+                {
+                    var rate = rateList.Any(x => x.from == transaction.currency && x.to == Divisa.EUR) ? rateList.FirstOrDefault(x => x.from == transaction.currency && x.to == Divisa.EUR) : rateList.FirstOrDefault(x => x.from == transaction.currency);
+
+                    transaction.currency = rate.to;
+                    transaction.amount = RoundNumber.RoundHalfToEven(transaction.amount * rate.rate);
+                }
+            }
+            transactionTotal.transactionList = transactionList.ToList();
+            transactionTotal.total = transactionList.Sum(x => x.amount);
+            return transactionTotal;
+        }
+
     }
 }
