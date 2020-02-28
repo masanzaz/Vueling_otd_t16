@@ -1,0 +1,7 @@
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDomain\bin\Debug\netcoreapp3.0\vuelingDomain.deps.json
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDomain\bin\Debug\netcoreapp3.0\vuelingDomain.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDomain\bin\Debug\netcoreapp3.0\vuelingDomain.pdb
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDomain\obj\Debug\netcoreapp3.0\vuelingDomain.AssemblyInfoInputs.cache
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDomain\obj\Debug\netcoreapp3.0\vuelingDomain.AssemblyInfo.cs
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDomain\obj\Debug\netcoreapp3.0\vuelingDomain.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingDomain\obj\Debug\netcoreapp3.0\vuelingDomain.pdb

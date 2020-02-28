@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuelingApi", "vuelingApi\vuelingApi.csproj", "{A8EB722E-74EF-4ABC-9110-008DF17BC183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vuelingDataAccess", "vuelingDataAccess\vuelingDataAccess.csproj", "{2618052E-F5A2-4755-9EBB-C0649E638984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuelingDataAccess", "vuelingDataAccess\vuelingDataAccess.csproj", "{2618052E-F5A2-4755-9EBB-C0649E638984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vuelingDomain", "vuelingDomain\vuelingDomain.csproj", "{E817710A-7937-486E-8B13-8D7989A92E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuelingDomain", "vuelingDomain\vuelingDomain.csproj", "{E817710A-7937-486E-8B13-8D7989A92E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vuelingAplication", "vuelingAplication\vuelingAplication.csproj", "{345BF8A7-8091-4415-947F-46B0D2962AF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuelingAplication", "vuelingAplication\vuelingAplication.csproj", "{345BF8A7-8091-4415-947F-46B0D2962AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vuelingTest", "vuelingTest\vuelingTest.csproj", "{0E796031-69AC-4FC3-A696-C9956D6D13EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vuelingTest", "vuelingTest\vuelingTest.csproj", "{C6A2E823-9B84-4B30-B060-447CD5ABF84C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{345BF8A7-8091-4415-947F-46B0D2962AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{345BF8A7-8091-4415-947F-46B0D2962AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{345BF8A7-8091-4415-947F-46B0D2962AF5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E796031-69AC-4FC3-A696-C9956D6D13EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E796031-69AC-4FC3-A696-C9956D6D13EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E796031-69AC-4FC3-A696-C9956D6D13EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E796031-69AC-4FC3-A696-C9956D6D13EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A2E823-9B84-4B30-B060-447CD5ABF84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A2E823-9B84-4B30-B060-447CD5ABF84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A2E823-9B84-4B30-B060-447CD5ABF84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A2E823-9B84-4B30-B060-447CD5ABF84C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

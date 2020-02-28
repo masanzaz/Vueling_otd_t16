@@ -4,14 +4,237 @@
     "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingTest\\vuelingTest.csproj": {}
   },
   "projects": {
-    "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingTest\\vuelingTest.csproj": {
+    "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\vuelingApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingTest\\vuelingTest.csproj",
-        "projectName": "vuelingTest",
-        "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingTest\\vuelingTest.csproj",
+        "projectUniqueName": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\vuelingApi.csproj",
+        "projectName": "vuelingApi",
+        "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\vuelingApi.csproj",
         "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingTest\\obj\\",
+        "outputPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingAplication\\vuelingAplication.csproj": {
+                "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingAplication\\vuelingAplication.csproj"
+              },
+              "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\vuelingDomain.csproj": {
+                "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\vuelingDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingAplication\\vuelingAplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingAplication\\vuelingAplication.csproj",
+        "projectName": "vuelingAplication",
+        "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingAplication\\vuelingAplication.csproj",
+        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingAplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDataAccess\\vuelingDataAccess.csproj": {
+                "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDataAccess\\vuelingDataAccess.csproj"
+              },
+              "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\vuelingDomain.csproj": {
+                "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\vuelingDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDataAccess\\vuelingDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDataAccess\\vuelingDataAccess.csproj",
+        "projectName": "vuelingDataAccess",
+        "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDataAccess\\vuelingDataAccess.csproj",
+        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\vuelingDomain.csproj": {
+                "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\vuelingDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\vuelingDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\vuelingDomain.csproj",
+        "projectName": "vuelingDomain",
+        "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\vuelingDomain.csproj",
+        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,18 +262,80 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingTest\\vuelingTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingTest\\vuelingTest.csproj",
+        "projectName": "vuelingTest",
+        "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingTest\\vuelingTest.csproj",
+        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\vuelingApi.csproj": {
+                "projectPath": "C:\\proyectos\\mario_asanza\\Vueling_otd_t16\\vuelingApi\\vuelingApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.2.0, )"
             },
-            "NUnit3TestAdapter": {
+            "coverlet.collector": {
               "target": "Package",
-              "version": "[3.13.0, )"
+              "version": "[1.0.1, )"
             },
-            "nunit": {
+            "xunit": {
               "target": "Package",
-              "version": "[3.12.0, )"
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             }
           },
           "imports": [
@@ -64,6 +349,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

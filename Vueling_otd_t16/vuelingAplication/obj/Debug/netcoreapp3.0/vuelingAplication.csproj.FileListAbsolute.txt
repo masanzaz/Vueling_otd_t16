@@ -1,0 +1,13 @@
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\bin\Debug\netcoreapp3.0\vuelingAplication.deps.json
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\bin\Debug\netcoreapp3.0\vuelingAplication.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\bin\Debug\netcoreapp3.0\vuelingAplication.pdb
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\bin\Debug\netcoreapp3.0\vuelingDataAccess.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\bin\Debug\netcoreapp3.0\vuelingDomain.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\bin\Debug\netcoreapp3.0\vuelingDataAccess.pdb
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\bin\Debug\netcoreapp3.0\vuelingDomain.pdb
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\obj\Debug\netcoreapp3.0\vuelingAplication.csprojAssemblyReference.cache
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\obj\Debug\netcoreapp3.0\vuelingAplication.AssemblyInfoInputs.cache
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\obj\Debug\netcoreapp3.0\vuelingAplication.AssemblyInfo.cs
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\obj\Debug\netcoreapp3.0\vuelingAplication.csproj.CopyComplete
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\obj\Debug\netcoreapp3.0\vuelingAplication.dll
+C:\proyectos\mario_asanza\Vueling_otd_t16\vuelingAplication\obj\Debug\netcoreapp3.0\vuelingAplication.pdb
